@@ -179,7 +179,6 @@ a.active{color: #00c7aa;}
 
 
 }
-
 @media screen and (max-width:980px){
 .col-t-1{ flex-basis:8.33%; max-width: 8.33%;}
 .col-t-2{ flex-basis:16.66%; max-width: 16.66%;}
@@ -194,8 +193,10 @@ a.active{color: #00c7aa;}
 .col-t-11{ flex-basis:91.66%; max-width: 91.66%;}
 .col-t-12{ flex-basis:100%; max-width: 100%;}
 
-    .navigation{display: none; position: absolute; left: 0; right: 0; top: 160px; background: #252525; padding: 1rem; z-index: 2;}
-    .navigation ul{flex-flow: column wrap; float: right;}
+    .navigation{display: none; position: absolute; left: 0; right: 0; top: 160px; background: #252525; z-index: 2; padding: 10px 5px;}
+    .navigation ul{flex-flow: column wrap; float: right; position: relative;}
+    .login{position: absolute; bottom: 0; margin-bottom: 10px;}
+    .navigation ul a{margin: 10px 0;}
     .toggle{ float: right;width: 60px; height: 66px; border: 2px solid #fff; background: transparent; text-align: center;}
     .toggle span{display: inline-block; width: 40px; height: 6px; color: #252525; background: #fff;}
     .wrap-3 h2 {font-size: 55px;}
