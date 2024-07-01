@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mico Hospital</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="wrap-1">
+        <div class="container-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-t-12 col-p-12">
+                        <div class="topheader flex align-center justify-center">
+                            <label><span class="fa fa-phone"></span> Call:<a href="tel:"> +01 1234567890</a></label>
+                            <label><span class="fa fa-envelope"></span> Email:<a href="mailto:"> iddo@gmail.com</a></label>
+                            <label><span class="fa fa-map-marker"></span><a href=""> Location</a></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-2">
+        <header>
+            <div class="container-lg">
+                <div class="row align-center">
+                    <div class="col-2">
+                        <div><img src="Img/logo.png" alt="logo" width="161" height="161"></div>
+                        <div><h1>Mico</h1></div>
+                    </div>
+                    <div class="col-10">
+                        <div class="flex navigation justify-space-bet align-center">
+                            <!-- <div class="collapse"> -->
+                                <nav>
+                                    <ul class="flex">
+                                        <li><a href="#Home">HOME</a></li>
+                                        <li><a href="#About">ABOUT</a></li>
+                                        <li><a href="#Treatment">TREATMENT</a></li>
+                                        <li><a href="#Doctors">DOCTORS</a></li>
+                                        <li><a href="#Testimonial">TESTIMONIAL</a></li>
+                                        <li><a href="#Contact">CONTACT US</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="login flex">
+                                    <div><button class="btn"><span class="fa fa-user"></span> LOGIN</button></div>
+                                    <div><button class="btn"><span class="fa fa-user"></span> SIGN UP</button></div>
+                                    <div><button class="btn"><span class="fa fa-search"></span></button></div>
+                                </div>
+                            <!-- </div> -->
+                        </div>
+                        <div class="toggle"><span></span><span></span><span></span></div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="wrap-3" id="Home">
+        <div class="container">
+            <div class="banner" role="banner">
+                <div class="row">
+                    <div class="col-6 col-p-12">
+                        <div class="side">
+                            <div><button class="fa fa-play-circle"></button></div>
+                            <h2>MICO <span>HOSPITAL</span></h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus laudantium quos itaque culpa repudiandae.</p>
+                            <a href="" class="link flex justify-center align-center">CONTACT US</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-p-12">
+                        <img src="Img/img1.png" alt="img1" width="616" height="563">
+                        <div class="btns">
+                            <button class="btn1">&lt;</button> <button class="btn2">&gt;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3 col-p-12">
+                    <h2>BOOK <span>APPOINTMENT</span></h2>
+                </div>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-3 col-p-12">
+                        <label for="name">Patient Name</label>
+                        <input type="text" id="name" name="Patient Name" required>
+                    </div>
+                    <div class="col-3 col-p-12">
+                        <label for="Dname">Docter's Name</label>
+                        <select name="Doctor" id="Dname">
+                            <option selected disabled>Normal Distribution</option>
+                            <option>Abhi</option>
+                            <option>Tanaya</option>
+                            <option>Anaya</option>
+                            <option>Shivam</option>
+                            <option>Divy</option>
+                            <option>Gaurav</option>
+                        </select>
+                    </div>
+                    <div class="col-3 col-p-12">
+                        <label for="Dpname">Department's Name</label>
+                        <select name="Department" id="Dpname">
+                            <option selected disabled>Normal Distribution</option>
+                            <option>Neurologists</option>
+                            <option>Cardiologists</option>
+                            <option>Dermatologists</option>
+                            <option>Pathologists</option>
+                            <option>Plastic Surgeons</option>
+                            <option>Physicians</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-3 col-p-12">
+                        <label for="mob">Phone Number</label>
+                        <input type="tel" id="mob" name="phone number" required>
+                    </div>
+                    <div class="col-3 col-p-12">
+                        <label for="Symptoms">Symptoms</label>
+                        <input type="text" id="Symptoms" name="Symptoms Name" required>
+                    </div>
+                    <div class="col-3 col-p-12">
+                        <label for="date">Choose Date</label>
+                        <input type="date" name="Date" id="date">
+                    </div>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3 col-p-12">
+                    <a href="" class="link flex justify-center align-center">SUBMIT NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-5" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-p-12">
+                    <div><img src="Img/patentimg.png" alt="patentimg" width="528" height="478"></div>
+                </div>
+                <div class="col-6 col-p-12">
+                    <h2>About <span>Hospital</span></h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque aut numquam maiores magni vel molestiae dicta quae assumenda natus possimus cumque, sapiente amet delectus, nihil labore atque consequatur eveniet dignissimos? Cum sint assumenda sunt deleniti deserunt nulla quod voluptatum praesentium numquam fuga consequatur pariatur illum, dicta, expedita adipisci accusantium aliquam cupiditate consequuntur. Repellendus, illo temporibus animi numquam enim vero mollitia.</p>
+                    <a href="#" class="link flex justify-center align-center">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-6" id="Treatment">
+        <div class="container">
+            <h2>Hospital <span>Treatment</span></h2>
+            <div class="row">
+                <div class="col-3 col-t-6 col-p-12 marg">
+                    <img src="Img/Syringe.png" alt="syringe" width="64" height="64">
+                    <h3>Nephrologist Care</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis repellat, porro ut et sint quod ipsam rerum eos bjkb.</p>
+                    <a href="" class="link">READ MORE</a>
+                </div>
+                <div class="col-3 col-t-6 col-p-12 marg">
+                    <img src="Img/Eyedrop.png" alt="syringe" width="64" height="64">
+                    <h3>Eye Care</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis repellat, porro ut et sint quod ipsam rerum eos bjkb.</p>
+                    <a href="" class="link">READ MORE</a>
+                </div>
+                <div class="col-3 col-t-6 col-p-12 marg">
+                    <img src="Img/lab.png" alt="syringe" width="64" height="64">
+                    <h3>Pediatrician Clinic</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis repellat, porro ut et sint quod ipsam rerum eos bjkb.</p>
+                    <a href="" class="link">READ MORE</a>
+                </div>
+                <div class="col-3 col-t-6 col-p-12 marg">
+                    <img src="Img/stethoscope.png" alt="syringe" width="64" height="64">
+                    <h3>Parental Care</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis repellat, porro ut et sint quod ipsam rerum eos bjkb.</p>
+                    <a href="" class="link">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-7" id="Doctors">
+        <div class="container-lg">
+            <div class="container">
+                <h2>OUR <span>DOCTORS</span></h2>
+                <div class="row">
+                    <div class="col-4 col-p-12">
+                        <div class="ourdoctors">
+                            <img src="Img/xyz.png" alt="xyz" width="371" height="456">
+                            <div class="caption">
+                                <h3>Hennry</h3>
+                                <p>MBBS</p>
+                                <div class="socials">
+                                    <span class="fa fa-facebook"></span>
+                                    <span class="fa fa-twitter"></span>
+                                    <span class="fa fa-linkedin"></span>
+                                    <span class="fa fa-instagram"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-p-12">
+                        <div class="ourdoctors">
+                            <img src="Img/abc.png" alt="abc" width="371" height="456">
+                            <div class="caption">
+                                <h3>Jenni</h3>
+                                <p>MBBS</p>
+                                <div class="socials">
+                                    <span class="fa fa-facebook"></span>
+                                    <span class="fa fa-twitter"></span>
+                                    <span class="fa fa-linkedin"></span>
+                                    <span class="fa fa-instagram"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-p-12">
+                        <div class="ourdoctors">
+                            <img src="Img/efg.png" alt="efg" width="371" height="455">
+                            <div class="caption">
+                                <h3>Morco</h3>
+                                <p>MBBS</p>
+                                <div class="socials">
+                                    <span class="fa fa-facebook"></span>
+                                    <span class="fa fa-twitter"></span>
+                                    <span class="fa fa-linkedin"></span>
+                                    <span class="fa fa-instagram"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="controls prev">❮</button>
+                <button class="controls next">❯</button>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-8" id="Testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-m-12">
+                    <h2>TESTIMONIAL</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10 col-m-12">
+                    <div class="review">
+                        <blockquote>
+                            <h3>Morijorch</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni iusto quod accusamus, quas exercitationem possimus explicabo reiciendis? Rem, reprehenderit pariatur consectetur, consequatur voluptatem quis, nemo doloremque aut accusantium natus aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam molestias perferendis doloribus in dolores? Dolorum architecto perferendis non, sapiente, eveniet maiores nam rerum deserunt.</p>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="side">
+                    <button class="btn2s">&gt;</button>
+                    <button class="btn1s">&lt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-9" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-12">
+                    <h2>GET IN TOUCH</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7 col-p-12">
+                    <form class="order">
+                        <input type="text" name="name" aria-label="Name" placeholder="Full Name">
+                        <input type="email" name="email" aria-label="Email" placeholder="Email">
+                        <input type="tel" name="number" aria-label="Phone Number" placeholder="Phone Number">
+                        <textarea name="Message" aria-label="Message" placeholder="Message"></textarea>
+                        <a href="" class="link flex justify-center align-center">SEND</a>
+                    </form>
+                </div>
+                <div class="col-5 col-p-12 order">
+                    <div><img src="Img/formimage.png" alt="formimage" width="406" height="379"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-10">
+        <div class="container">
+            <footer>
+                <div class="row flex align-center">
+                    <div class="col-2 col-p-10">
+                        <div><img src="Img/logo.png" alt="logo" width="161" height="161"></div>
+                        <div><h1>Mico</h1></div>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-9 col-p-12">
+                        <div class="foo flex align-center">
+                            <input type="email" aria-label="Email" name="Email" id="email" placeholder="Your Email">
+                            <a href="" class="sub">SUBSCRIBE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 col-p-12 col-t-6">
+                        <div class="top flex align-center">
+                            <img src="Img/Square.png " alt="Square" width="23" height="23">
+                            <h2> ADDRESS</h2>
+                        </div>
+                        <div class="add">
+                            <label><span class="fa fa-map-marker"></span><a href=""> Making this the first true</a></label>
+                            <label><span class="fa fa-phone"></span> Call:<a href="tel:"> +01 1234567890</a></label>
+                            <label><span class="fa fa-envelope"></span> Email:<a href="mailto:"> iddo@gmail.com</a></label>
+                        </div>
+                        <div class="social">
+                            <span class="fa fa-facebook"></span>
+                            <span class="fa fa-twitter"></span>
+                            <span class="fa fa-linkedin"></span>
+                            <span class="fa fa-instagram"></span>
+                        </div>
+                    </div>
+                    <div class="col-3 col-p-12 col-t-6">
+                        <div class="top flex align-center">
+                            <img src="Img/Square.png " alt="Square" width="23" height="23">
+                            <h2>USEFUL LINK</h2>
+                        </div>
+                        <div class="useful">
+                            <ul>
+                                <li><a href="#Home" class="active">Home</a></li>
+                                <li><a href="#About">About</a></li>
+                                <li><a href="#Doctors">Doctors</a></li>
+                                <li><a href="#News">News</a></li>
+                                <li><a href="#Treatment">Treatment</a></li>
+                                <li><a href="#Contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 col-p-12 col-t-6">
+                        <div class="top flex align-center">
+                            <img src="Img/Square.png " alt="Square" width="23" height="23">
+                            <h2>LATEST POST</h2>
+                        </div>
+                        <div class="post flex align-center">
+                            <img src="Img/post1.png" alt="post1" width="86" height="67">
+                            <p>Normal <br>distribution</p>
+                        </div>
+                        <div class="post flex align-center">
+                            <img src="Img/post2.png" alt="post2" width="76" height="53">
+                            <p>Normal <br>distribution</p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-p-12 col-t-6">
+                        <div class="top flex align-center">
+                            <img src="Img/Square.png " alt="Square" width="23" height="23">
+                            <h2>NEWS</h2>
+                        </div>
+                        <div class="post flex align-center">
+                            <img src="Img/news1.png" alt="post1" width="70" height="70">
+                            <p>Normal <br>distribution</p>
+                        </div>
+                        <div class="post flex align-center">
+                            <img src="Img/news2.png" alt="post2" width="83" height="64">
+                            <p>Normal <br>distribution</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="para">
+                    <p>&copy; 2020 All Rights Reserved By gauravsingh@gmail.com</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+    <script src="./JS/commonjs.js"></script>
+</body>
+</html>
